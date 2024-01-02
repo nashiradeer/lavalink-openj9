@@ -2,6 +2,8 @@
 
 [Lavalink](https://github.com/lavalink-devs/Lavalink) is a server-based audio player for Discord written in Kotlin, with the container built by default using Eclipse Temurin[[1]](https://github.com/lavalink-devs/Lavalink/blob/master/LavalinkServer/docker/Dockerfile) and Zulu on the Alpine based[[2]](https://github.com/lavalink-devs/Lavalink/blob/master/LavalinkServer/docker/alpine.Dockerfile).
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H4NKWWN)
+
 ## Why OpenJ9?
 
 Some friend has said to me that's OpenJ9 has a small memory usage than the others JVMs, so to test it, I have written these Dockerfiles to compile Lavalink with OpenJ9 to test into my own.
