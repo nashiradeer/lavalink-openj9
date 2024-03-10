@@ -3,7 +3,7 @@ FROM eclipse-temurin:17 AS builder
 WORKDIR /app
 # We only distribute Lavalink container built with OpenJ9, so we don't need to fork the repository only clone it during the build stage.
 RUN apt-get update && apt-get install -y git
-RUN git clone --branch master --depth 1 https://github.com/lavalink-devs/Lavalink .
+RUN git clone --branch 4.0.4 --depth 1 https://github.com/lavalink-devs/Lavalink .
 # There's no browser available in Docker, so we exclude the browser tests.
 RUN ./gradlew build --no-daemon --exclude-task protocol:jsBrowserTest
 
