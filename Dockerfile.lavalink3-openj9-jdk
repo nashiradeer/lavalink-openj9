@@ -3,7 +3,7 @@ FROM ibm-semeru-runtimes:open-17-jdk AS builder
 WORKDIR /app
 # We only distribute Lavalink container built with OpenJ9, so we don't need to fork the repository only clone it during the build stage.
 RUN apt-get update && apt-get install -y git
-RUN git clone --branch 3.7.10 --depth 1 https://github.com/lavalink-devs/Lavalink .
+RUN git clone --branch 3.7.11 --depth 1 https://github.com/lavalink-devs/Lavalink .
 # :protocol:jsBrowserTest is only implemented in Lavalink 4 or higher.
 RUN ./gradlew build --no-daemon
 
