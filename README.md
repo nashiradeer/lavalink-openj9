@@ -2,7 +2,15 @@
 
 [Lavalink](https://github.com/lavalink-devs/Lavalink) is a server-based audio player for Discord written in Kotlin, with the container built by default using Eclipse Temurin[[1]](https://github.com/lavalink-devs/Lavalink/blob/master/LavalinkServer/docker/Dockerfile) and Zulu on the Alpine based[[2]](https://github.com/lavalink-devs/Lavalink/blob/master/LavalinkServer/docker/alpine.Dockerfile).
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H4NKWWN)
+[![PayPal](https://img.shields.io/badge/Paypal-003087?style=for-the-badge&logo=paypal&logoColor=%23fff)
+](https://www.paypal.com/donate/?business=QQGMTC3FQAJF6&no_recurring=0&item_name=Thanks+for+donating+for+me%2C+this+helps+me+a+lot+to+continue+developing+and+maintaining+my+projects.&currency_code=USD)
+[![GitHub Sponsor](https://img.shields.io/badge/GitHub%20Sponsor-181717?style=for-the-badge&logo=github&logoColor=%23fff)
+](https://github.com/sponsors/nashiradeer)
+[![Docker](https://img.shields.io/docker/v/nashiradeer/lavalink-openj9?style=for-the-badge&logo=docker&logoColor=%23fff&label=Docker&labelColor=%232496ED&color=%232496ED)](https://hub.docker.com/r/nashiradeer/lavalink-openj9)
+
+## Downloading
+
+You can download Lavalink over the OpenJ9 VM from [Docker Hub](https://hub.docker.com/r/nashiradeer/lavalink-openj9).
 
 ## Why OpenJ9?
 
