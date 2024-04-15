@@ -18,7 +18,7 @@ A friend has said to me that OpenJ9 has a smaller memory usage than the other JV
 
 ## Why not make this instead of building with OpenJ9?
 
-Because I'm not from Java/Kotlin/JVM community, so I don't know how to reduce the memory usage of Lavalink or JVM, what I only know is that OpenJ9 has used 109MB when the Lavalink container provided by Fredboat has used 261MB in my personal computer, and this is why I am letting this project public, because has worked to me. If you know a better solution, implement it in your repository and send it to me in the Issues tab.
+Because I'm not from the Java/Kotlin/JVM community, I don't know how to reduce the memory usage of Lavalink or JVM, what I only know is that OpenJ9 has used 109MB when the Lavalink container provided by Fredboat has used 261MB in my personal computer, and this is why I am letting this project public, because has worked to me. If you know a better solution, implement it in your repository and send it to me in the Issues tab.
 
 ## About the license
 
