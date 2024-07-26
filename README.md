@@ -1,5 +1,7 @@
 # Nashira Deer // Lavalink OpenJ9
 
+**Warning: This project has been deprecated and it's not receiving updates anymore, use the [official Lavalink](https://github.com/lavalink-devs/Lavalink) instead.**
+
 [Lavalink](https://github.com/lavalink-devs/Lavalink) is a server-based audio player for Discord written in Kotlin, with the container built by default using Eclipse Temurin[[1]](https://github.com/lavalink-devs/Lavalink/blob/master/LavalinkServer/docker/Dockerfile) and Zulu on the Alpine based[[2]](https://github.com/lavalink-devs/Lavalink/blob/master/LavalinkServer/docker/alpine.Dockerfile).
 
 [![PayPal](https://img.shields.io/badge/Paypal-003087?style=for-the-badge&logo=paypal&logoColor=%23fff)
